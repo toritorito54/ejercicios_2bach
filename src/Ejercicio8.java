@@ -12,7 +12,7 @@ public class Ejercicio8 {
         double t = teclado.nextDouble();
         if ((x == z) && (x == t)) {
                 System.out.println("Es equilátero");
-        } else if (((x != t) && (x == z)) || ((x != z) && (x==t))) {
+        } else if (((x != t) && (x == z)) || ((x != z) && (x==t)) || ((x != z)) && (z == t)) {
             System.out.println("Es isósceles");
         } else {
             System.out.println("Es escaleno");
