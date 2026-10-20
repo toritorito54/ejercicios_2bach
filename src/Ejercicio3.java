@@ -7,12 +7,12 @@ public class Ejercicio3  {
 
     System.out.println("Introduce un número: ");
 
-    int x = teclado.nextInt();
+    double x = teclado.nextDouble();
     if (x == 0) {
         System.out.println("Es natural");
     } else if (x > 0) {
         System.out.println("Es positivo");
-    } else if (x<0) {
+    } else {
         System.out.println("Es negativo");
 
     }
