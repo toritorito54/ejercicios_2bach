@@ -7,5 +7,11 @@ public class Multiplicaciones {
         String cifra1 = numero_string.substring(2,3);
         int cifra1_numero = Integer.parseInt(cifra1);
         System.out.println(cifra1_numero);
+
+        int derecha = numero % 10;
+        int medio = (numero / 10) % 10;
+        int izquierda = (numero / 100);
+
+        System.out.println(derecha + " " + medio + " " + izquierda);
     }
 }
