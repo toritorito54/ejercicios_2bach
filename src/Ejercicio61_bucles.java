@@ -9,13 +9,13 @@ public class Ejercicio61_bucles {
         System.out.print(n + "! = ");
         for (int i= n; i >=1; i--){
             if (i == 1){
-                System.out.println(i);
+                System.out.print(i + " = ");
             }else{
                 System.out.print(i + "*");
 
             }
             contador = contador*i;
     }
-        System.out.println(contador);
+        System.out.print(contador);
     }
 }
