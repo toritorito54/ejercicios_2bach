@@ -18,5 +18,3 @@ public class Ejercicio6_bucles {
 
     }
     }
-
-
