@@ -45,7 +45,13 @@ public class Suma_de_vocales {
 
 
         }
-        System.out.println("Cantidad total de vocales (no acentuadas): " + vocales + " vocales");
+        if (vocales > 1){
+            System.out.println("Cantidad total de vocales (no acentuadas): " + vocales + " vocales");
+        }else {
+
+            System.out.println("Cantidad total de vocales (no acentuadas): " + vocales + " vocal");
+        }
+
         System.out.println("A: " + a);
         System.out.println("E: " + e);
         System.out.println("I: " + i_vocal);
