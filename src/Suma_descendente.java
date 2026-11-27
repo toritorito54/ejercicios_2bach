@@ -9,7 +9,7 @@ public class Suma_descendente {
 
         if ((n >= 500) || (n <= 100000)) {
             String numint = Integer.toString(n);
-
+            int suma = 0;
             //switch (numint) {
 //                case n == 100000:
 //                        String cn1 = numint.substring(0, 6);
@@ -23,13 +23,22 @@ public class Suma_descendente {
 //                    System.out.println(n1 + n2 + n3 + n4 + n5 + n6 = );
 //                break;
             int t_numimt = numint.length()-1;
-            for (int i = t_numimt; i > 0; i-- ) {
-                String cn1 = numint.substring(0, i);
-                        int n1 = Integer.parseInt(cn1);
-                System.out.println(cn1);
+            for (int i = 0; i <= t_numimt; i++ ) {
+                String cn1 = numint.substring(i);
+
+                if (i == t_numimt) {
+                    System.out.print(cn1 + " = ");
+                } else {
+                    System.out.print(cn1 + " + ");
+                }
+
+
+                int n1 = Integer.parseInt(cn1);
+                suma = suma + n1;
+
 
             }
-
+            System.out.println(suma);
 
             }
         }
